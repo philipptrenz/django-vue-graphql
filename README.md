@@ -2,7 +2,7 @@
 
 A Django framework that integrates Vue with Vuetify and GraphQL
 
-![Screencast of this Django application framework](.github/images/screencast.gif)
+![Screencast of this Django application framework](.github/screencast.gif)
 
 ## What is it about?
 
