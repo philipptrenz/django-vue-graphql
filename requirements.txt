@@ -1,0 +1,6 @@
+Django==3.2.8
+django-webpack-loader==1.4.1
+graphene-django==2.15.0
+graphene-file-upload==1.3.0
+django-environ==0.8.1
+gunicorn==20.1.0

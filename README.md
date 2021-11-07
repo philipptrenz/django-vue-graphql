@@ -1,6 +1,6 @@
 # Django + Vue + Vuetify + GraphQL
 
-A Django application that integrates Vue with Vuetify and GraphQL
+A Django framework that integrates Vue with Vuetify and GraphQL
 
 ## What is it about?
 
@@ -9,3 +9,41 @@ The Vue application is embedded using the Django template engine and GraphQL is 
 All requests are secured via Django's standard session-based authentication framework, CSRF cookies are also configured for GraphQL requests. 
 For the login the standard view form `django.contrib.auth` is used, although the form is rendered by Vue.
 
+## Get started
+
+### Setup
+
+```bash
+# Install Python dependencies
+pip -r requirements.txt
+
+# Create sqlite3 database and apply migrations
+./manage.py migrate
+
+# Install Vue dependencies
+cd frontend
+yarn install
+```
+
+### Run 
+
+```bash
+# Run development server
+./manage.py runserver
+
+# Run frontend in dev mode
+cd frontend
+yarn serve
+```
+
+### Build
+
+```bash
+# Build frontend
+cd frontend 
+yarn build
+
+# Collect static files
+cd ..
+./manage.py collectstatic
+```

@@ -152,4 +152,4 @@ data/
 # Default database file
 postgres
 
-tmp/
+.vscode/
