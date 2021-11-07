@@ -2,6 +2,8 @@
 
 A Django framework that integrates Vue with Vuetify and GraphQL
 
+![Screencast of this Django application framework](.github/images/screencast.gif)
+
 ## What is it about?
 
 This is an opinionated framework that integrates Vue with Vuetify directly into Django. 
