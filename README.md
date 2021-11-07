@@ -1,6 +1,6 @@
 # Django + Vue + Vuetify + GraphQL
 
-A Django framework that integrates Vue with Vuetify and GraphQL
+A Django framework that integrates Vue with Vuetify and GraphQL with as little complexity as possible. Great for prototyping and to get started quickly!
 
 ![Screencast of this Django application framework](.github/screencast.gif)
 
@@ -25,6 +25,7 @@ pip -r requirements.txt
 # Install Vue dependencies
 cd frontend
 yarn install
+cd ..
 
 # Create an admin account
 ./manage.py createsuperuser
