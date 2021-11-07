@@ -1,6 +1,6 @@
-# Django + Vue + Vuetify + GraphQL
+# Django + Vuetify + GraphQL
 
-A Django framework that integrates Vue with Vuetify and GraphQL with as little complexity as possible. 
+A Django framework that integrates Vue.js with Vuetify and GraphQL with as little complexity as possible. 
 
 Great for prototyping and to get started quickly! 🚀
 
@@ -8,10 +8,18 @@ Great for prototyping and to get started quickly! 🚀
 
 ## What is it about?
 
-This is an opinionated framework that integrates Vue with Vuetify directly into Django. 
-The Vue application is embedded using the Django template engine and GraphQL is preconfigured for backend communication. 
+This is an opinionated framework that integrates [Vue.js](https://github.com/vuejs/vue) with [Vuetify](https://github.com/vuetifyjs/vuetify) directly into [Django](https://github.com/django/django). 
+The Vue.js application is embedded using the Django template engine and [GraphQL](https://graphql.org) is preconfigured for backend communication. 
 All requests are secured via Django's standard session-based authentication framework, CSRF cookies are also configured for GraphQL requests. 
-For the login the standard view form `django.contrib.auth` is used, although the form is rendered by Vue.
+For login the standard view from `django.contrib.auth` is used, although the form gets rendered by Vuetify.
+To make file uploads as easy as possible from the frontend, [graphene-file-upload](https://github.com/lmcgartland/graphene-file-upload) is also on board.
+
+In a nutshell:
+
+* All the awesome security and database mapping of Django
+* All the flexibility and reactiveness of Vue.js
+* All the handy pre-styled components from vuetify
+* All the API awesomeness of GraphQL
 
 ## Get started
 
