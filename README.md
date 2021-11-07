@@ -1,6 +1,7 @@
 # Django + Vue + Vuetify + GraphQL
 
-A Django framework that integrates Vue with Vuetify and GraphQL with as little complexity as possible. Great for prototyping and to get started quickly!
+A Django framework that integrates Vue with Vuetify and GraphQL with as little complexity as possible. 
+Great for prototyping and to get started quickly! 🚀
 
 ![Screencast of this Django application framework](.github/screencast.gif)
 
