@@ -16,10 +16,12 @@ To make file uploads as easy as possible from the frontend, [graphene-file-uploa
 
 In a nutshell:
 
-* All the awesome security and database mapping of Django
+* All the security and database mapping of Django
 * All the flexibility and reactiveness of Vue.js
 * All the handy pre-styled components from vuetify
 * All the API awesomeness of GraphQL
+
+If you like, feel free to fork, contribute or [buy me a coffee](http://ko-fi.com/philipptrenz) ☕️
 
 ## Get started
 
