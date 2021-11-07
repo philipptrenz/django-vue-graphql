@@ -25,6 +25,9 @@ pip -r requirements.txt
 # Install Vue dependencies
 cd frontend
 yarn install
+
+# Create an admin account
+./manage.py createsuperuser
 ```
 
 ### Run 
